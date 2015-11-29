@@ -18,7 +18,7 @@ div.horizontal a
 {
 display:block;
 width:100px;
-background-color: #58ACFA;
+background-color:rgba(0,0,200,0.3);
 }
 div.horizontal a:link,div.horizontal a:visited
 {
@@ -30,7 +30,7 @@ text-decoration:none;
 }
 div.horizontal a:hover,div.horizontal a:active
 {
-background-color: gray;
+#p4 {background-color:rgba(192,192,192,0.3);}
 }
 
 #wiener {
