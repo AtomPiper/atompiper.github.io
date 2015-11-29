@@ -5,22 +5,26 @@ height:35px;
 background-color: transparent;
 border-bottom-right-radius: 5%;
 }
+
 div.horizontal ul
 {
 list-style-type:none;
 margin:0;
 padding:0;
 }
-div.horizontal li
+
+div.horizontalli
 {
 float:left;
 }
+
 div.horizontal a
 {
 display:block;
 width:100px;
-background-color:rgba(0,0,200,0.3);
+background-color:rgba(192,192,192,0.3);
 }
+
 div.horizontal a:link,div.horizontal a:visited
 {
 font-weight:bold;
@@ -29,9 +33,10 @@ text-align:center;
 padding:4px;
 text-decoration:none;
 }
+
 div.horizontal a:hover,div.horizontal a:active
 {
-background-color:rgba(192,192,192,0.3);
+background-color:rgba(0,0,200,0.3);
 }
 
 #wiener {
