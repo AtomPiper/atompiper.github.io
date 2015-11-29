@@ -25,7 +25,7 @@ div.horizontal a
 display: inline-block;
 width:100px;
 background-color:rgba(192,192,192,0.9);
-border-bottom-right-radius: 00%;
+border-bottom-right-radius: 200%;
 }
 
 div.horizontal a:link, div.horizontal a:visited
