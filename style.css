@@ -3,7 +3,7 @@ div.horizontal
 width:100%;
 height:35px;
 background-color: transparent;
-border-bottom-right-radius: 5%;
+border-bottom-right-radius: 0%;
 }
 
 div.horizontal ul
