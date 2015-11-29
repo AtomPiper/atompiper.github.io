@@ -114,6 +114,10 @@ header {
 	float: left;
 }
 
+.nav {
+	background-color: black;
+}
+
 .nav ul {
   list-style: none;
   text-align: center;
