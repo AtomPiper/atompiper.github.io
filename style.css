@@ -18,6 +18,7 @@ div.horizontal a
 {
 display:block;
 width:100px;
+background-color: #58ACFA;
 }
 div.horizontal a:link,div.horizontal a:visited
 {
